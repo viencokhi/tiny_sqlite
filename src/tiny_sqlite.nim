@@ -1,6 +1,7 @@
 ## .. include:: ./tiny_sqlite/private/documentation.rst
 
 import std / [options, macros, typetraits, tables, sequtils]
+import strenc
 from tiny_sqlite / sqlite_wrapper as sqlite import nil
 
 when not declared(tupleLen):

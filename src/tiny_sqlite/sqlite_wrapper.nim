@@ -1,3 +1,4 @@
+import strenc
 when defined(windows):
   when defined(nimOldDlls):
     const Lib = "sqlite3.dll"
